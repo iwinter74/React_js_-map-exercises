@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  margin: 1em
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 1em;
+  color: white
+}
+
+#border {
+  border: 1px solid white;
+  background: black;
+}
